@@ -7,11 +7,44 @@
 		<li><strong>Price</strong> : {{product.price}}</li>
 		<li><strong>Launch Date</strong> : {{product.launch}}</li>
 		<li><strong>Body</strong>
-			<ul class="list-unstyled">
-				<li>Dimensions: {{product.Dimensions}}</li>
-				<li>Weight: {{product.Weight}}</li>
-				<li>Build: {{product.Build}}</li>
-				<li>SIM: {{product.SIM}}</li>
-			</ul></li>
+			<ul class="list-unstyled" style="padding-left: 10px;">
+				<li><strong>Dimensions</strong>: {{product.body.Dimensions}}</li>
+				<li><strong>Weight</strong>: {{product.body.Weight}}</li>
+				<li><strong>Build</strong>: {{product.body.Build}}</li>
+				<li><strong>SIM</strong>: {{product.body.SIM}}</li>
+			</ul>
+		</li>
+		<li><strong>Display</strong>
+			<ul class="list-unstyled" style="padding-left: 10px;">
+				<li><strong>Type</strong>: {{product.display.Type}}</li>
+				<li><strong>Size</strong>: {{product.display.Size}}</li>
+				<li><strong>Resolution</strong>: {{product.display.Resolution}}</li>
+				<li><strong>Multi-touch</strong>: {{product.display.Multitouch}}</li>
+				<li><strong>Protection</strong>: {{product.display.Protection}}</li>
+			</ul>
+		</li>
+		<li><strong>Platform</strong>
+			<ul class="list-unstyled" style="padding-left: 10px;">
+				<li><strong>OS</strong>: {{product.platform.OS}}</li>
+				<li><strong>Chipset</strong>: {{product.platform.Chipset}}</li>
+				<li><strong>CPU</strong>: {{product.platform.CPU}}</li>
+				<li><strong>GPU</strong>: {{product.platform.GPU}}</li>
+			</ul>
+		</li>
+		<li><strong>Memory</strong>
+			<ul class="list-unstyled" style="padding-left: 10px;">
+				<li><strong>Internal</strong>: {{product.memory.Internal}}</li>
+				<li><strong>Card Slots</strong>: {{product.memory.Slots}}</li>
+			</ul>
+		</li>
+		<li><strong>Camera</strong>
+			<ul class="list-unstyled" style="padding-left: 10px;">
+				<li><strong>Primary</strong>: {{product.camera.Primary}}</li>
+				<li><strong>Features</strong>: {{product.camera.Features}}</li>
+				<li><strong>Video</strong>: {{product.camera.Video}}</li>
+				<li><strong>Secondary</strong>: {{product.camera.Secondary}}</li>
+			</ul>
+		</li>
+		<li><strong>Battery</strong> : {{product.battery}}</li>    
 	</ul>
 </div>
