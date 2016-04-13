@@ -17,12 +17,12 @@
 		    network: "GSM/HSPA/LTE",
 		    price: 899,
 		    launch: "2016, March",
-		    body: [{
+		    body: {
 		    	Dimensions: "-",
 			    Weight: "-",
 			    Build: "Corning Gorilla Glass 4 back panel",
 			    SIM: "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
-		    }],
+		    },
 		    display: [{
 		    	Type: "Super AMOLED capacitive touchscreen, 16M colors",
 			    Size: "6.0 inches",
